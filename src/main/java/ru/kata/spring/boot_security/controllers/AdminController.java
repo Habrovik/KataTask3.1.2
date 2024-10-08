@@ -1,14 +1,14 @@
-package ru.kata.spring.boot_security.demo.controllers;
+package ru.kata.spring.boot_security.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
-import ru.kata.spring.boot_security.demo.models.User;
-import ru.kata.spring.boot_security.demo.services.RegistrationService;
-import ru.kata.spring.boot_security.demo.services.RoleService;
-import ru.kata.spring.boot_security.demo.services.UserService;
+import ru.kata.spring.boot_security.models.User;
+import ru.kata.spring.boot_security.services.RegistrationService;
+import ru.kata.spring.boot_security.services.RoleService;
+import ru.kata.spring.boot_security.services.UserService;
 
 import javax.validation.Valid;
 
